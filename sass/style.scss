@@ -1058,7 +1058,7 @@ form {
 	h3{
 		font-family: $font-secondary;
 		color: $brand-primary;
-		font-size: 30px;
+		font-size: 100px;
 	}
 	.groom,.bride{
 		float: left;
@@ -1085,14 +1085,14 @@ form {
 	}
 	.groom{
 		float: right;
-		margin-right: 5px;
+		margin-right: 50px;
 	}
 	.bride{
 		float: left;
 		margin-left: 5px;
 	}
 	.desc-groom{
-		padding-right: 180px;
+		padding-right: 80px;
 		text-align: right;
 	}
 	.desc-bride{
@@ -1101,8 +1101,8 @@ form {
 	}
 	@media screen and (max-width: $screen-xs){
 		.groom,.bride{
-			margin-left: 0;
-			margin-right: 0;
+			margin-left: 100;
+			margin-right: 100;
 		}
 		.desc-groom{
 			padding-right: 0;
@@ -1121,7 +1121,7 @@ form {
 	padding-right: 20px;
 	float: left;
 	width: 100%;
-	margin-bottom: 40px;
+	margin-bottom: 400px;
 	@media screen and (max-width: $screen-sm) {
 		margin-bottom: 50px;
 	}
